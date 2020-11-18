@@ -1,0 +1,18 @@
+
+p{
+	font-size: 40px;
+	font-style: italic;
+	border: 3px solid orange;
+	width: 200px;
+	padding: 10px;
+	text-align: center;
+}
+
+.v1{
+	font-size: 60px;
+}
+
+.v2{
+	border-top: 3px solid black;
+	padding-top: 16px;
+}

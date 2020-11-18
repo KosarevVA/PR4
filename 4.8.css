@@ -1,0 +1,68 @@
+.block1 {
+    width: 200px;
+    background: lightskyblue;
+    padding: 5px;
+    padding-right: 20px;
+    border: solid 1px black;
+    float: left;
+   }
+   .block2 {
+    width: 200px;
+    background: pink;
+    padding: 5px;
+    border: solid 1px black;
+    float: left;
+    position: relative;
+    top: 40px;
+    left: -70px;
+   }
+    .block3 {
+    width: 200px;
+    background: lightgreen;
+    padding: 5px;
+    border: solid 1px black;
+    float: left;
+   }
+   .block4 {
+    width: 200px;
+    background: rosybrown;
+    padding: 5px;
+    border: solid 1px black;
+    float: left;
+    position: relative;
+    top: 100px;
+    left: 70px;
+   }
+   .block5 {
+    width: 200px;
+    background: yellow;
+    padding: 5px;
+    border: solid 1px black;
+    float: left;
+    position: relative;
+    top: 150px;
+    left: 150px;
+   }
+   div1:hover {
+    -webkit-transform: rotate(5deg);
+    left: -100px; top:70px;
+   }
+   div:hover{
+    -webkit-transform: rotate(-5deg);
+    font-style: italic; /* Курсивное начертание */
+   }
+   div2:hover{
+    -webkit-transform: rotate(180deg);
+   }
+   div3:hover{
+    font-style: italic;
+    color: palevioletred;
+    background: lemonchiffon ;
+    border: solid 2px lightskyblue;
+   }
+   div4:hover{
+    width: 250px;
+    background: darkgrey;
+    padding: 15px;
+    font-size: 2em;
+   }

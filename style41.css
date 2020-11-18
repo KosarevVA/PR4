@@ -1,0 +1,18 @@
+p1:before {content:"\2018";}
+        p1:after {content:"\2019";}
+        p1 {background:#ffc266;}
+        p2:before {content:"\201A";}
+        p2:after {content:"\201A";}
+        p2 {color: maroon;}
+        p3:before {content:"\201C";}
+        p3:after {content:"\201D";}
+        p3 {text-shadow: 1px 1px 2px black, 0 0 1em red; /* Параметры тени */
+            color: white; /* Белый цвет текста */
+            font-size: 1em; /* Размер надписи */}
+        p4:before {content:"\201E";}
+        p4:after {content:"\201E";}
+        p4 {background: violet;color: pink;}
+        p5:before {content:"\00AB";}
+        p5:after {content:"\00BB";}
+        p5{ font: 1em Arial, sans-serif;
+    text-shadow: red 0 0 2px;}
